@@ -188,7 +188,7 @@ aside {
 .splash-page {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     text-align: center;
     color: #fff;
     background-image: url(../img/header.jpg);
@@ -333,7 +333,7 @@ aside {
 .phil-page {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     min-height: auto;
     text-align: center;
     color: #fff;
