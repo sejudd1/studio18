@@ -1,4 +1,10 @@
 
+hr {
+    max-width: 50px;
+    border-color: #f05f40;
+    border-width: 3px;
+}
+
 /* Style for our header texts
 * --------------------------------------- */
 h1{
@@ -9,14 +15,51 @@ h1{
     padding:0;
 }
 
-/* Centered texts in each section
-* --------------------------------------- */
-.section{
-    text-align:center;
-    overflow: hidden;
+#section1 {
+    background-image: url(../img/bg1.jpg);
+    padding: 3% 0 0 0;
 }
 
-#myVideo{
+#section2 {
+    background-image: url(../img/bg3.jpg);
+    padding: 6% 0 0 0;
+}
+
+#section3 {
+    background-image: url(../img/bg4.jpg);
+    padding: 6% 0 0 0;
+}
+
+#section4 {
+    background-image: url(../img/bg5.jpg);
+    padding: 6% 0 0 0;
+}
+
+#section5 {
+    background-image: url(../img/bg6.jpg);
+    padding: 6% 0 0 0;
+}
+
+#section6 {
+    background-image: url(../img/bg7.jpg);
+    padding: 6% 0 0 0;
+}
+
+#section7 {
+    background-image: url(../img/bg2.jpg);
+    padding: 6% 0 0 0;
+}
+
+
+/* Centered texts in each section
+* --------------------------------------- */
+.section {
+    text-align:center;
+    overflow: hidden;
+    background-size: cover;
+}
+
+#myVideo {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -42,13 +85,8 @@ h1{
     z-index: 4;
     width: 100%;
     left: 0;
-    top: 43%;
+    top: 35%;
 }
-
-#section0{
-    overflow: hidden;
-}
-
 
 /* Bottom menu
 * --------------------------------------- */
@@ -66,6 +104,7 @@ h1{
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+    border: 0px;
 }
 
 .navbar-default .navbar-header .navbar-brand {
