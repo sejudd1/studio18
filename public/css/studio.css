@@ -44,6 +44,10 @@ h6 {
     font-size: 20px;
 }
 
+#section1 .vertical-center {
+    padding-top: 10%;
+}
+
 #section2 {
     background-image: url(../img/bg3.jpg);
     padding: 6% 0 0 0;

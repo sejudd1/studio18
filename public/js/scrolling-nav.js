@@ -15,7 +15,7 @@ $(function() {
             anchors: ['onePage', 'twoPage', 'threePage', 'fourPage', 'fivePage', 'sixPage', 'sevenPage', 'eightPage'],
             menu: '#menu',
             scrollingSpeed: 1000,
-            verticalCentered: true,
+            verticalCentered: false,
             afterRender: function(){
 
                 //playing the video
