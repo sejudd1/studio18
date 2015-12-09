@@ -102,9 +102,18 @@ h6 {
 
 /* Centered texts in each section
 * --------------------------------------- */
-.section {
+.section{
     text-align:center;
+}
+
+
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+.section{
+    background-size: cover;
     overflow: hidden;
+}
+.slide{
     background-size: cover;
 }
 
