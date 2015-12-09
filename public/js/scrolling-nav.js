@@ -12,7 +12,7 @@ $(function() {
 
     $(document).ready(function() {
         $('#fullpage').fullpage({
-            anchors: ['onePage', 'twoPage', 'threePage', 'fourPage', 'fivePage', 'sixPage', 'sevenPage'],
+            anchors: ['onePage', 'twoPage', 'threePage', 'fourPage', 'fivePage', 'sixPage', 'sevenPage', 'eightPage'],
             menu: '#menu',
             scrollingSpeed: 1000,
             verticalCentered: true,

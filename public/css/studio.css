@@ -1,18 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+    font-family: 'Lato', sans-serif;
+}
 
 hr {
     max-width: 50px;
     border-color: #f05f40;
     border-width: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Style for our header texts
 * --------------------------------------- */
 h1{
     font-size: 5em;
-    font-family: arial,helvetica;
     color: #fff;
     margin:0;
     padding:0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+#section0 p, h2 {
+    color: white;
 }
 
 #section1 {
@@ -20,14 +39,29 @@ h1{
     padding: 3% 0 0 0;
 }
 
+#section1 p {
+    color: white;
+    font-size: 20px;
+}
+
 #section2 {
     background-image: url(../img/bg3.jpg);
     padding: 6% 0 0 0;
 }
 
+#section2 p {
+    color: white;
+    font-size: 14px;
+}
+
 #section3 {
     background-image: url(../img/bg4.jpg);
     padding: 6% 0 0 0;
+}
+
+#section3 p {
+    color: white;
+    font-size: 16px;
 }
 
 #section4 {
@@ -40,14 +74,29 @@ h1{
     padding: 6% 0 0 0;
 }
 
+#section5 p {
+    color: white;
+    font-size: 20px;
+}
+
 #section6 {
     background-image: url(../img/bg7.jpg);
     padding: 6% 0 0 0;
 }
 
+#section6 p {
+    color: white;
+    font-size: 20px;
+}
+
 #section7 {
     background-image: url(../img/bg2.jpg);
     padding: 6% 0 0 0;
+}
+
+#section7 p {
+    color: white;
+    font-size: 20px;
 }
 
 
@@ -76,8 +125,6 @@ h1{
     z-index:3;
 }
 
-
-
 /* Layer with position absolute in order to have it over the video
 * --------------------------------------- */
 #section0 .layer{
@@ -88,19 +135,13 @@ h1{
     top: 35%;
 }
 
-/* Bottom menu
-* --------------------------------------- */
-#infoMenu li a {
-    color: #fff;
-}
-
 
 /* Navbar Menu
 * --------------------------------------- */
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: #fff;
+    background-color: ;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -194,7 +235,68 @@ h1{
     }
 }
 
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+}
 
+.portfolio-box .portfolio-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    background: rgba(240,95,64,.9);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
 
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
 
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0 15px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+@media(min-width:768px) {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 16px;
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 22px;
+    }
+}
+
+.no-gutter > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
 
