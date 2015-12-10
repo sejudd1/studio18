@@ -30,6 +30,17 @@ h6 {
     font-family: 'Lato', sans-serif;
 }
 
+
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+.section{
+    background-size: cover;
+    overflow: hidden;
+}
+.slide{
+    background-size: cover;
+}
+
 #section0 p, h2 {
     color: white;
 }
@@ -37,16 +48,11 @@ h6 {
 #section1 {
     background-image: url(../img/bg1.jpg);
     padding: 3% 0 0 0;
-    background-size: 100% 100%;
 }
 
 #section1 p {
     color: white;
     font-size: 20px;
-}
-
-#section1 .vertical-center {
-    padding-top: 10%;
 }
 
 #section2 {
@@ -108,17 +114,6 @@ h6 {
 /* Centered texts in each section
 * --------------------------------------- */
 
-
-/* Backgrounds will cover all the section
-* --------------------------------------- */
-.section{
-    background-size: cover;
-    overflow: hidden;
-}
-.slide{
-    background-size: cover;
-}
-
 #myVideo {
     position: absolute;
     right: 0;
@@ -136,14 +131,134 @@ h6 {
     z-index:3;
 }
 
-/* Layer with position absolute in order to have it over the video
-* --------------------------------------- */
-#section0 .layer{
-    position: absolute;
-    z-index: 4;
-    width: 100%;
-    left: 0;
-    top: 35%;
+ #section0 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 30%;
+    }
+
+    #section1 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 25%;
+    }
+
+    #section2 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 10%;
+    }
+
+    #section3 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 20%;
+    }
+
+    #section4 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 35%;
+    }
+
+    #section5 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 33%;
+    }
+
+    #section6 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 35%;
+    }
+
+    #section7 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 30%;
+    }
+
+@media(min-width:768px) {
+    #section0 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 35%;
+    }
+
+    #section1 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 33%;
+    }
+
+    #section2 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 30%;
+    }
+
+    #section3 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 35%;
+    }
+
+    #section4 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 35%;
+    }
+
+    #section5 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 35%;
+    }
+
+    #section6 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 35%;
+    }
+
+    #section7 .layer{
+        position: absolute;
+        z-index: 4;
+        width: 100%;
+        left: 0;
+        top: 30%;
+    }
 }
 
 
