@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato: 300, 700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300,700);
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300,700);
 
 body {
-    font-family: 'Raleway', sans-serif;
     color: white;
 }
 
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Menlo', sans-serif;
     font-weight: 700;
 }
 
@@ -42,11 +42,20 @@ h6 {
     font-size: 25px;
 }
 
+#section0 {
+    background-image: url('../img/whiteboard.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
 #section0 h1{
     color: white;
+    font-family: 'Menlo', sans-serif;
     padding: 20px 0px;
-    font-size: 100px;
-    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
     display: inline;
 }
 
@@ -57,9 +66,12 @@ h6 {
 }
 
 #section1 {
-    background-image: url(../img/bg10.jpg);
+    background-image: url('../img/stadium.jpg');
     height: 100%;
-    padding: 3% 0 0 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /*padding: 3% 0 0 0;*/
 }
 
 #section1 p {
@@ -69,9 +81,13 @@ h6 {
 }
 
 #section2 {
-    background-image: url(../img/bg3.jpg);
-    padding: 6% 0 0 0;
+    background-image: url('../img/milk-fade.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     color: white;
+    height: 100vh;
+    width: 100vw;
 }
 
 #section2 p {
@@ -79,8 +95,7 @@ h6 {
 }
 
 #section3 {
-    background-image: url(../img/bg11.jpg);
-    padding: 6% 0 0 0;
+    background-color: #4e78cf ;
     color: black;
   
 }
@@ -99,28 +114,26 @@ h6 {
 }
 
 #section4 {
-    background-image: url(../img/bg13.jpg);
-    padding: 6% 0 0 0;
+    background-image: url('../img/wood.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    width: 100vw;
 }
 
 #section5 {
-    background-image: url(../img/bg6.jpg);
-    padding: 6% 0 0 0;
-    color: white;
-    text-shadow:
-       -1px -1px 0 #000,  
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
+    background-color: #ff8300;
 }
 
 #section5 p {
+    padding-top: 120px;
     font-size: 30px;
 }
 
 #section6 {
     background-image: url(../img/bg7.jpg);
-    padding: 6% 0 0 0;
 }
 
 #section6 p {
@@ -130,7 +143,6 @@ h6 {
 
 #section7 {
     background-image: url(../img/bg8.jpg);
-    padding: 6% 0 0 0;
 }
 
 #section7 p {
@@ -144,6 +156,10 @@ h6 {
 
 /* Centered texts in each section
 * --------------------------------------- */
+
+#main-logo{
+    height: 100px;
+}
 
 #myVideo {
     position: absolute;
@@ -167,7 +183,7 @@ h6 {
         z-index: 4;
         width: 100%;
         left: 0;
-        top: 30%;
+        top: 20%;
     }
 
     #section1 .layer{
@@ -175,7 +191,12 @@ h6 {
         z-index: 4;
         width: 100%;
         left: 0;
-        top: 25%;
+        top: 15%;
+        text-shadow:
+            -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
     }
 
     #section1 p {
@@ -187,23 +208,37 @@ h6 {
         z-index: 4;
         width: 100%;
         left: 0;
-        top: 10%;
+        top: 20%;
         font-size: 10px;
     }
-
+    #section2 p {
+        font-size: 15px;
+    }
     #section3 .layer{
         position: absolute;
         z-index: 4;
         width: 100%;
         left: 0;
-        top: 10%;
-        font-size: 8px;
-        text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+        top: 5%;
+        font-size: 6px;
+    }
+    
+    #section3 .serviceImage {
+        width: 10%;
+    }
 
+    #section3 .infinity {
+        display: none;
     }
 
     #section3 h2{
         color: black;
+        font-size: 20px;
+    }
+
+    #section3 p{
+        color: black;
+        font-size: 16px;
     }
 
     #section4 .layer{
@@ -211,7 +246,11 @@ h6 {
         z-index: 4;
         width: 100%;
         left: 0;
-        top: 35%;
+        top: 10%;
+    }
+
+    #section4 p{
+        font-size: 16px;
     }
 
     #section5 .layer{
@@ -219,7 +258,15 @@ h6 {
         z-index: 4;
         width: 100%;
         left: 0;
-        top: 33%;
+        top: 10%;
+    }
+    #section5 .network-image {
+        width: 50%;
+    }
+    
+    #section5 p {
+        font-size: 20px;
+        padding-top: 20px;
     }
 
     #section6 .layer{
@@ -237,8 +284,11 @@ h6 {
         left: 0;
         top: 20%;
     }
-
+    .philosophy-list {
+        padding: 0px 40px;
+    }
 @media(min-width:768px) {
+    
     #section0 .layer{
         position: absolute;
         z-index: 4;
@@ -285,7 +335,7 @@ h6 {
         z-index: 4;
         width: 100%;
         left: 0;
-        top: 25%;
+        top: 10%;
         font-size: 20px;
     }
 
@@ -294,7 +344,7 @@ h6 {
         z-index: 4;
         width: 100%;
         left: 0;
-        top: 35%;
+        top: 20%;
     }
 
     #section5 .layer{
@@ -302,7 +352,7 @@ h6 {
         z-index: 4;
         width: 100%;
         left: 0;
-        top: 35%;
+        top: 10%;
     }
 
     #section6 .layer{
@@ -333,7 +383,7 @@ h6 {
 * --------------------------------------- */
 .navbar-default {
     border-color: rgba(34,34,34,.05);
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Menlo', sans-serif;
     background-color: ;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -343,7 +393,7 @@ h6 {
 
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Menlo', sans-serif;
     font-weight: 700;
     color: #f05f40;
 }
@@ -461,7 +511,7 @@ h6 {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Menlo', sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -552,11 +602,24 @@ section#section7 .text-danger {
 }
 
 html,body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Menlo', sans-serif;
   padding: 1em 2em;
   font-size: 18px;
 }
 
+.infinity {
+    padding: 25px 0px;
+}
 
+.network-image {
+    width: 100%;
+}
 
+.phil-image {
+    padding-top: 10px;
+    padding-right: 20px;
+}
 
+.infinity {
+    width: 100%;
+}
