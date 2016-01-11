@@ -31,8 +31,8 @@ h6 {
 /* Backgrounds will cover all the section
 * --------------------------------------- */
 .section{
-    overflow: hidden;
     background-size: cover;
+    overflow: hidden;
 }
 .slide{
     background-size: cover;
@@ -44,8 +44,6 @@ h6 {
 
 #section0 {
     background-image: url('../img/whiteboard.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
     height: 100vh;
     width: 100vw;
 }
@@ -67,8 +65,6 @@ h6 {
 #section1 {
     background-image: url('../img/stadium.jpg');
     height: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
     /*padding: 3% 0 0 0;*/
 }
 
@@ -80,8 +76,6 @@ h6 {
 
 #section2 {
     background-image: url('../img/milk-fade.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
     color: white;
     height: 100vh;
     width: 100vw;
@@ -112,8 +106,6 @@ h6 {
 
 #section4 {
     background-image: url('../img/wood.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
     color: white;
     height: 100vh;
     width: 100vw;
