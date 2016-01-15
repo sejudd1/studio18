@@ -25,6 +25,7 @@ h5,
 h6 {
     font-family: 'Menlo', sans-serif;
     font-weight: 700;
+    margin-top: 3px;
 }
 
 
@@ -38,12 +39,30 @@ h6 {
     background-size: cover;
 }
 
+.icons {
+    padding-left: 20px;
+}
+
+.shoveBottomLeft {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.shoveBottomRight {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 #section0 p{
     font-size: 25px;
 }
 
 #section0 {
-    background-image: url('../img/whiteboard.jpg');
+    background-image: url('../img/18_web_alt.jpg');
+    background-position: center;
 }
 
 #section0 h1{
@@ -59,6 +78,8 @@ h6 {
     font-size: 35px;
     font-weight: 300;
 }
+
+
 
 #section1 {
     background-image: url('../img/stadium.jpg')
@@ -123,11 +144,12 @@ h6 {
 }
 
 #section7 {
-    background-image: url(../img/bg8.jpg);
+    background-image: url(../img/18_web_alt.jpg);
+    background-position: center;
 }
 
 #section7 p {
-    color: black;
+    color: white;
     font-size: 20px;
 }
 
@@ -166,6 +188,10 @@ h6 {
         left: 0;
         top: 20%;
     }
+
+    
+
+    
 
     #section1 .layer{
         position: absolute;
@@ -275,7 +301,7 @@ h6 {
         z-index: 4;
         width: 100%;
         left: 0;
-        top: 30%;
+        top: 15%;
     }
 
     #section1 .layer{
@@ -349,8 +375,9 @@ h6 {
         z-index: 4;
         width: 100%;
         left: 0;
-        top: 20%;
+        top: 10%;
         font-family: Courier, "Lucida Console", monospace;
+
     }
 
     #section7 h1 {
@@ -529,7 +556,7 @@ section#section7 .section-heading {
 }
 
 section#section7 .form-group {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 section#section7 .form-group input,
@@ -604,3 +631,206 @@ html,body {
 .infinity {
     width: 100%;
 }
+
+
+
+
+/*CSS STYLES FOR NEW WEBSITE*/
+
+ .form-control {
+    background-color: #0072bc;
+    border: none;
+    border-radius: 0px;
+}
+
+/*.main-content {
+    height: 300px
+}*/
+
+#superman {
+    width: 700px;
+}
+
+section#section7 .form-group textarea.form-control {
+    height: 175px;
+}
+
+.address h3 {
+    margin-top: 0px;
+    font-weight: 100;
+}
+
+
+.form-horizontal {
+    padding-top: 30px;
+}
+
+#branding {
+    padding-top: 25px;
+}
+
+.find-out {
+    padding-top: 20px;
+}
+
+#textarea_1::-webkit-input-placeholder
+{
+  visibility: hidden;
+}
+#textarea_2::-webkit-input-placeholder
+{
+  visibility: hidden;
+}
+#textarea_3::-webkit-input-placeholder
+{
+  visibility: hidden;
+}
+
+input, select, textarea{
+    color: white;
+    font-size: 24px;
+}
+
+textarea:focus, input:focus {
+    color: white;
+}
+
+.section7 p {
+    color: white;
+}
+
+.blue {
+    color: #0072bc;
+}
+
+.address-right {
+    margin-right: 15px;
+}
+
+#section7 .send  a {
+    color: white;
+    font-size: 18px;
+}
+
+.llc {
+    padding-right: 15px;
+}
+
+.social-icon {
+        width: 75px;
+        padding-left: 5px;
+    }
+
+/*MEDIA QUERIES*/
+
+@media(max-width:768px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-top: 10px;
+    }
+    #superman { 
+        width: 250px;
+    }
+    #branding {
+        font-size: 15px;
+    }
+    label {
+        display: none;
+    }
+
+    section#section7 .form-group {
+        margin-bottom: 4px;
+    }
+    section#section7 .form-group textarea.form-control {
+    height: 100px;
+    }
+    section#section7 .form-group input, section#section7 .form-group textarea {
+    padding: 5px;
+    margin-bottom: 0px;
+    }
+    .main-content {
+        padding-top: 20px;
+    }
+    .social-icon {
+        width: 60px;
+        padding-right: 5px;
+    }
+
+    .form-horizontal {
+        padding:0 15px ;
+    }
+    
+    .find-out {
+        padding-top: 20px;
+    }
+
+    #section0 .find-out p {
+        font-size: 15px;
+    }
+
+     #section0 .llc p {
+    font-size: 10px;
+    }
+
+    .chevron img{
+        width: 55px;
+    }
+
+#section7 p {
+    font-size: 14px;
+}
+
+#section7 h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#section7 .infinity-address {
+    width: 50px;
+}
+
+#section7 h3 {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+#section7 h4 {
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+
+
+
+br {
+    display: none;
+}
+
+    #textarea_1::-webkit-input-placeholder
+{
+  visibility: visible;
+}
+#textarea_2::-webkit-input-placeholder
+{
+  visibility: visible;
+}
+#textarea_3::-webkit-input-placeholder
+{
+  visibility: visible;
+}
+
+.goal {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+}
+/*END OF MEDIA QUERY*/
+
+
+
+
