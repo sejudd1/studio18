@@ -41,19 +41,26 @@ h6 {
 
 .icons {
     padding-left: 20px;
+    z-index: 999;
+}
+
+img {
+    z-index: 999;
 }
 
 .shoveBottomLeft {
     position: absolute;
     bottom: 0;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 .shoveBottomRight {
     position: absolute;
     bottom: 0;
     right: 0;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 
 #section0 p{
@@ -183,7 +190,7 @@ h6 {
 
  #section0 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 20%;
@@ -195,7 +202,7 @@ h6 {
 
     #section1 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 15%;
@@ -212,7 +219,7 @@ h6 {
 
     #section2 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 20%;
@@ -223,7 +230,7 @@ h6 {
     }
     #section3 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 5%;
@@ -250,7 +257,7 @@ h6 {
 
     #section4 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 10%;
@@ -262,7 +269,7 @@ h6 {
 
     #section5 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 10%;
@@ -278,7 +285,7 @@ h6 {
 
     #section6 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 35%;
@@ -286,7 +293,7 @@ h6 {
 
     #section7 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 20%;
@@ -298,7 +305,7 @@ h6 {
     
     #section0 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 15%;
@@ -306,7 +313,7 @@ h6 {
 
     #section1 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 22%;
@@ -318,7 +325,7 @@ h6 {
 
     #section2 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 18%;
@@ -339,7 +346,7 @@ h6 {
 
     #section3 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 10%;
@@ -348,7 +355,7 @@ h6 {
 
     #section4 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 20%;
@@ -356,7 +363,7 @@ h6 {
 
     #section5 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 10%;
@@ -364,7 +371,7 @@ h6 {
 
     #section6 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 35%;
@@ -372,7 +379,7 @@ h6 {
 
     #section7 .layer{
         position: absolute;
-        z-index: 4;
+        z-index: 0;
         width: 100%;
         left: 0;
         top: 10%;
@@ -721,6 +728,8 @@ textarea:focus, input:focus {
         padding-left: 5px;
     }
 
+
+
 /*MEDIA QUERIES*/
 
 @media(max-width:768px) {
@@ -756,7 +765,7 @@ textarea:focus, input:focus {
         padding-top: 20px;
     }
     .social-icon {
-        width: 60px;
+        width: 40px;
         padding-right: 5px;
     }
 
@@ -828,6 +837,28 @@ br {
     padding-right: 15px;
 }
 
+.shoveBottomLeft {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+.shoveBottomRight {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+    }
+}
+
+/*this is intended to stop iphone from zooming when entering text*/
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
 }
 /*END OF MEDIA QUERY*/
 
