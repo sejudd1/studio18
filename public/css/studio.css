@@ -362,7 +362,7 @@ img {
 
 /* Navbar Menu
 * --------------------------------------- */
-.navbar-default {
+/*.navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Menlo', sans-serif;
     background-color: ;
@@ -406,9 +406,9 @@ img {
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover {
     background-color: transparent;
-}
+}*/
 
-@media(min-width:768px) {
+/*@media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
@@ -457,7 +457,7 @@ img {
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #f05f40;
     }
-}
+}*/
 
 .portfolio-box {
     display: block;
@@ -509,7 +509,7 @@ img {
     opacity: 1;
 }
 
-@media(min-width:768px) {
+/*@media(min-width:768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 16px;
     }
@@ -517,7 +517,7 @@ img {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 22px;
     }
-}
+}*/
 
 .no-gutter > [class*=col-] {
     padding-right: 0;
@@ -824,6 +824,67 @@ br {
     }
 }
 
+@media(max-width:700px) {
+    #contactForm {
+        margin-top: 65px;
+    }
+
+    .shoveBottomLeft {
+        margin-top: 25px;
+        position: absolute;
+        bottom: 0;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    .shoveBottomRight {
+        margin-top: 25px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding-bottom: 20px;
+        padding-right: 20px;
+    }
+
+
+}
+
+@media(max-width:630px) {
+
+    #superman {
+        margin-top: 250px;
+    }
+
+    #contactForm {
+        margin-top: 135px;
+    }
+
+    p {
+        margin: -70px 0 10px;
+    }
+
+    .logo img {
+        margin-top: 25px;
+    }
+
+    img {
+        top: -20px;
+    }
+
+    .chevron img {
+        padding-top: 60px;
+    }
+
+    p#branding {
+        padding-top: 125px;
+    }
+
+    p.llc.text-right {
+        margin-top: 0px;
+        
+    }
+}
+
 /*this is intended to stop iphone from zooming when entering text*/
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
   select,
@@ -832,6 +893,8 @@ br {
     font-size: 16px;
   }
 }
+
+
 /*END OF MEDIA QUERY*/
 
 
