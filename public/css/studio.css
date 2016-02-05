@@ -701,7 +701,9 @@ textarea:focus, input:focus {
 
 /*MEDIA QUERIES*/
 
-@media(max-width:768px) {
+
+
+@media(max-width: 800px) {
     h1,
     h2,
     h3,
@@ -710,12 +712,15 @@ textarea:focus, input:focus {
     h6 {
         margin-top: 10px;
     }
+
     #superman { 
         width: 250px;
     }
+
     #branding {
         font-size: 15px;
     }
+
     label {
         display: none;
     }
@@ -723,16 +728,20 @@ textarea:focus, input:focus {
     section#section7 .form-group {
         margin-bottom: 4px;
     }
+
     section#section7 .form-group textarea.form-control {
-    height: 100px;
+        height: 100px;
     }
+
     section#section7 .form-group input, section#section7 .form-group textarea {
-    padding: 5px;
-    margin-bottom: 0px;
+        padding: 5px;
+        margin-bottom: 0px;
     }
+
     .main-content {
         padding-top: 20px;
     }
+
     .social-icon {
         width: 40px;
         padding-right: 5px;
@@ -752,77 +761,76 @@ textarea:focus, input:focus {
     }
 
      #section0 .llc p {
-    font-size: 10px;
-    font-family: 'Menlo', sans-serif;
+        font-size: 10px;
+        font-family: 'Menlo', sans-serif;
     }
 
     .chevron img{
         width: 55px;
     }
 
-#section7 p {
-    font-size: 14px;
-    font-family: 'Menlo', sans-serif;
-}
+    #section7 p {
+        font-size: 14px;
+        font-family: 'Menlo', sans-serif;
+    }
 
-#section7 h2 {
-    font-size: 18px;
-    margin-top: 10px;
-}
+    #section7 h2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
 
-#section7 .infinity-address {
-    width: 50px;
-}
+    #section7 .infinity-address {
+        width: 50px;
+    }
 
-#section7 h3 {
-    font-size: 12px;
-    margin-bottom: 0px;
-}
+    #section7 h3 {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
 
-#section7 h4 {
-    font-size: 10px;
-    margin-bottom: 0px;
-    margin-top: 3px;
-}
+    #section7 h4 {
+        font-size: 10px;
+        margin-bottom: 0px;
+        margin-top: 3px;
+    }
 
+    br {
+        display: none;
+    }
 
+    #textarea_1::-webkit-input-placeholder {
+        visibility: visible;
+    }
 
-br {
-    display: none;
-}
+    #textarea_2::-webkit-input-placeholder {
+        visibility: visible;
+    }
 
-#textarea_1::-webkit-input-placeholder
-{
-  visibility: visible;
-}
-#textarea_2::-webkit-input-placeholder
-{
-  visibility: visible;
-}
-#textarea_3::-webkit-input-placeholder
-{
-  visibility: visible;
-}
+    #textarea_3::-webkit-input-placeholder {
+        visibility: visible;
+    }   
 
-.goal {
-    padding-left: 15px;
-    padding-right: 15px;
-}
+    .goal {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
-.shoveBottomLeft {
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 20px;
-    padding-left: 0px;
-}
+    .shoveBottomLeft {
+        position: absolute;
+        bottom: 0;
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
 
-.shoveBottomRight {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    .shoveBottomRight {
+        position: absolute;
+        bottom: 0;
+        right: 0;
     
     }
 }
+
+
 
 @media(max-width:700px) {
     #contactForm {
@@ -849,7 +857,7 @@ br {
 
 }
 
-@media(max-width:630px) {
+@media(max-width:375px) {
 
     #superman {
         margin-top: 250px;
@@ -857,6 +865,10 @@ br {
 
     p {
         margin: -70px 0 10px;
+    }
+
+    .row-find-out p {
+        margin-top: -10px;
     }
 
     .logo img {
@@ -884,14 +896,86 @@ br {
         margin-top: 30px;
     }
 
-    .send{
-        height: 50px;
+    #contactForm #message.form-control {
+        height: 40px;
+    }
+
+    p.send {
+        margin-top: 0px;
+        height: 0px;
     }
 
     .col-xs-6.text-right.shoveBottomRight{
-        height: 138px;
+        height: 108px;
+    }
+
+    .col-xs-6.text-right.shoveBottomRight img {
+        height: 20px;
+
+    }
+
+    .col-xs-6.llc.shoveBottomRight {
+        padding-right: 5px;
     }
 }
+
+@media(max-width: 320px) {
+
+    #superman {
+        margin-top: 220px;
+    }
+
+    .row-find-out p {
+        margin-top: -20px;
+    }
+
+    .row-find-out img {
+        padding-top: 10px;
+    }
+
+    #section7 p {
+        font-size: 11px;
+        padding-top: 20px;
+    }
+
+    #section7 p.send {
+        padding-top: 0px;
+    }
+
+    #name.form-control{
+        margin-top: 5px;
+    }
+
+    #email.form-control {
+        margin-top: -30px;
+    }
+
+    #message.form-control {
+        margin-top: -30px;
+        height: 40px;
+    }
+
+    p.send {
+        padding-top: 0px;
+    }
+
+    .col-xs-6.text-right.shoveBottomRight {
+        font-size: 8px;
+        height: 120px;
+    }
+
+    .col-xs-6.text-right.shoveBottomRight img {
+        height: 20px;
+        width: 30px;
+    }
+
+    .col-xs-6.llc.shoveBottomRight {
+        padding-left: 30px;
+        padding-right: 5px;
+        padding-bottom: 0px;
+        margin-top: 15px;
+        
+    }
 
 /*this is intended to stop iphone from zooming when entering text*/
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
