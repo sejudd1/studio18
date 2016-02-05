@@ -714,7 +714,8 @@ textarea:focus, input:focus {
     }
 
     #superman { 
-        width: 250px;
+        width: 480px;
+        margin-top: -15px;
     }
 
     #branding {
@@ -723,6 +724,10 @@ textarea:focus, input:focus {
 
     label {
         display: none;
+    }
+
+    .container.text-center {
+        margin-top: 185px;
     }
 
     section#section7 .form-group {
@@ -742,9 +747,17 @@ textarea:focus, input:focus {
         padding-top: 20px;
     }
 
+    .row.main-content {
+        margin-top: 180px;
+    }
+
     .social-icon {
-        width: 40px;
+        width: 60px;
         padding-right: 5px;
+    }
+
+    .row.text-center.goal {
+        margin-top: -200px;
     }
 
     .form-horizontal {
@@ -756,12 +769,12 @@ textarea:focus, input:focus {
     }
 
     #section0 .find-out p {
-        font-size: 15px;
+        font-size: 25px;
         font-family: 'Menlo', sans-serif;
     }
 
      #section0 .llc p {
-        font-size: 10px;
+        font-size: 25px;
         font-family: 'Menlo', sans-serif;
     }
 
@@ -770,7 +783,7 @@ textarea:focus, input:focus {
     }
 
     #section7 p {
-        font-size: 14px;
+        font-size: 17px;
         font-family: 'Menlo', sans-serif;
     }
 
@@ -833,6 +846,11 @@ textarea:focus, input:focus {
 
 
 @media(max-width:700px) {
+
+    .container.text-center {
+        margin-top: 0px;
+    }
+
     #contactForm {
         margin-top: 65px;
     }
@@ -857,10 +875,23 @@ textarea:focus, input:focus {
 
 }
 
+@media(max-width: 600px){
+
+}
+
 @media(max-width:375px) {
 
     #superman {
+        width: 250px;
         margin-top: 250px;
+    }
+
+    .social-icon {
+        width: 30px;
+    }
+
+    .row.text-center.goal {
+        margin-top: -50px;
     }
 
     p {
@@ -869,6 +900,11 @@ textarea:focus, input:focus {
 
     .row-find-out p {
         margin-top: -10px;
+    }
+
+    #section7 p {
+        font-size: 15px;
+
     }
 
     .logo img {
@@ -892,6 +928,11 @@ textarea:focus, input:focus {
         
     }
 
+    .row.main-content {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
     #contactForm {
         margin-top: 30px;
     }
@@ -907,6 +948,7 @@ textarea:focus, input:focus {
 
     .col-xs-6.text-right.shoveBottomRight{
         height: 108px;
+        font-size: 10px;
     }
 
     .col-xs-6.text-right.shoveBottomRight img {
@@ -916,6 +958,12 @@ textarea:focus, input:focus {
 
     .col-xs-6.llc.shoveBottomRight {
         padding-right: 5px;
+
+    }
+
+    #section0 .llc p {
+        font-size: 10px;
+        
     }
 }
 
@@ -975,6 +1023,10 @@ textarea:focus, input:focus {
         padding-bottom: 0px;
         margin-top: 15px;
         
+    }
+
+    .row.main-content {
+        margin-top: -10px;
     }
 
 /*this is intended to stop iphone from zooming when entering text*/
