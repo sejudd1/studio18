@@ -93,7 +93,6 @@ img {
     margin-bottom: 15px;
 }
 
-
 #section7 {
     background-image: url(../img/18_web_alt.jpg);
     background-position: center;
@@ -728,7 +727,9 @@ textarea:focus, input:focus {
 
     .container.text-center {
         margin-top: 185px;
+
     }
+
 
     section#section7 .form-group {
         margin-bottom: 4px;
@@ -756,6 +757,10 @@ textarea:focus, input:focus {
         padding-right: 5px;
     }
 
+    #section0 p {
+        font-size: 35px;
+    }
+
     .row.text-center.goal {
         margin-top: -200px;
     }
@@ -769,7 +774,7 @@ textarea:focus, input:focus {
     }
 
     #section0 .find-out p {
-        font-size: 25px;
+        font-size: 35px;
         font-family: 'Menlo', sans-serif;
     }
 
@@ -783,12 +788,12 @@ textarea:focus, input:focus {
     }
 
     #section7 p {
-        font-size: 17px;
+        font-size: 25px;
         font-family: 'Menlo', sans-serif;
     }
 
     #section7 h2 {
-        font-size: 18px;
+        font-size: 25px;
         margin-top: 10px;
     }
 
@@ -845,7 +850,12 @@ textarea:focus, input:focus {
 
 
 
-@media(max-width:700px) {
+@media(max-width:740px) {
+
+    #superman {
+        width: 250px;
+        margin-top: 250px;
+    }
 
     .container.text-center {
         margin-top: 0px;
@@ -872,10 +882,49 @@ textarea:focus, input:focus {
         padding-right: 20px;
     }
 
+    #section0 .llc p {
+        font-size: 10px;
+        
+    }
+
 
 }
 
 @media(max-width: 600px){
+    #superman {
+        width: 250px;
+        margin-top: 295px;
+    }
+
+    #section0 .llc p {
+        font-size: 10px;
+        
+    }
+
+    .row.text-center.goal {
+        margin-top: -100px;
+    }
+
+    .row.main-content {
+        margin-top: 10px;
+    }
+
+    .col-xs-6.text-right.shoveBottomRight img {
+        height: 20px;
+
+    }
+
+    #section7 p {
+        font-size: 15px;
+    }
+
+    #section7 h2 {
+        font-size: 15px;
+    }
+
+    .social-icon {
+        width: 60px;
+    }
 
 }
 
@@ -887,7 +936,7 @@ textarea:focus, input:focus {
     }
 
     .social-icon {
-        width: 30px;
+        width: 40px;
     }
 
     .row.text-center.goal {
@@ -905,6 +954,10 @@ textarea:focus, input:focus {
     #section7 p {
         font-size: 15px;
 
+    }
+
+    #section7 h2 {
+        font-size: 15px;
     }
 
     .logo img {
@@ -965,6 +1018,11 @@ textarea:focus, input:focus {
         font-size: 10px;
         
     }
+
+     #section0 p {
+        font-size: 20px;
+
+    }
 }
 
 @media(max-width: 320px) {
@@ -973,8 +1031,14 @@ textarea:focus, input:focus {
         margin-top: 220px;
     }
 
+    #section0 p {
+        font-size: 20px;
+
+    }
+
     .row-find-out p {
         margin-top: -20px;
+        font-size: 20px;
     }
 
     .row-find-out img {
@@ -988,6 +1052,10 @@ textarea:focus, input:focus {
 
     #section7 p.send {
         padding-top: 0px;
+    }
+
+    #section7 h2 {
+        font-size: 15px;
     }
 
     #name.form-control{
@@ -1027,6 +1095,11 @@ textarea:focus, input:focus {
 
     .row.main-content {
         margin-top: -10px;
+    }
+
+    #section0 .llc p {
+        font-size: 8px;
+        
     }
 
 /*this is intended to stop iphone from zooming when entering text*/
