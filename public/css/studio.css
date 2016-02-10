@@ -928,11 +928,11 @@ textarea:focus, input:focus {
 
 }
 
-@media(max-width:375px) {
+@media(max-width:400px) {
 
     #superman {
         width: 250px;
-        margin-top: 250px;
+        margin-top: 240px;
     }
 
     .social-icon {
@@ -987,7 +987,7 @@ textarea:focus, input:focus {
     }
 
     #contactForm {
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     #contactForm #message.form-control {
@@ -1025,10 +1025,10 @@ textarea:focus, input:focus {
     }
 }
 
-@media(max-width: 320px) {
+@media(min-width: 320px) {
 
     #superman {
-        margin-top: 220px;
+        margin-top: 180px;
     }
 
     #section0 p {
@@ -1047,7 +1047,12 @@ textarea:focus, input:focus {
 
     #section7 p {
         font-size: 11px;
-        padding-top: 20px;
+        margin-top: -25px;
+        padding-top: 0px;
+    }
+
+    #section7 span.studio {
+        font-size: 30px;
     }
 
     #section7 p.send {
@@ -1059,20 +1064,24 @@ textarea:focus, input:focus {
     }
 
     #name.form-control{
-        margin-top: 5px;
+        margin-top: 15px;
     }
 
     #email.form-control {
-        margin-top: -30px;
+        margin-top: 15px;
     }
 
     #message.form-control {
-        margin-top: -30px;
+        margin-top: 15px;
         height: 40px;
     }
 
     p.send {
-        padding-top: 0px;
+        margin-top: 50px;
+    }
+
+    .text-center {
+        margin-top: 50px;
     }
 
     .col-xs-6.text-right.shoveBottomRight {
@@ -1101,6 +1110,27 @@ textarea:focus, input:focus {
         font-size: 8px;
         
     }
+
+    #contactForm {
+        margin-top: 40px;
+    }
+
+}
+/*
+@media (max-width: 300px){
+
+    #superman {
+        margin-top: 180px;
+    }
+
+
+    #section7 p {
+        padding-top: 30px;
+        font-size: 11px;
+    }
+
+
+}*/
 
 /*this is intended to stop iphone from zooming when entering text*/
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
